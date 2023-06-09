@@ -43,6 +43,12 @@
       nav ul li a:hover {
         color: rgb(0, 255, 221);
       }
+      main hr {
+        border: 0;
+        background-color: #5b5b5b;
+        height: 2px;
+        margin: 30px 5vw;
+      }
       .logo {
         font-weight: bold;
         font-size: 2rem;
@@ -51,7 +57,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        margin: 100px 0;
+        margin: 17vh 0; /*use pixel if needed*/
       }
       .first-section > div {
         width: 40%;
@@ -70,6 +76,40 @@
       .name {
         font-weight: bold;
         color: rgb(0, 255, 221);
+      }
+      .second-section {
+        max-width: 80vw;
+        margin: auto;
+        height: 50vh;
+      }
+      .second-section h1 {
+        font-size: 2rem;
+      }
+      .blue-text {
+        color: rgb(0, 255, 221);
+      }
+      .second-section .box {
+        background-color: white;
+        height: 1.5px;
+        width: 80vw;
+        margin: 50px 0;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .second-section .vertical {
+        height: 90px;
+        width: 1px;
+        background-color: white;
+      }
+      .edu-img {
+        width: 30px;
+        position: relative;
+        top: -28px;
+        left: -13px;
+      }
+      .edu-title {
+      }
+      .edu-text {
       }
     </style>
   </head>
@@ -99,13 +139,28 @@
           <img src="./image.png" alt="" />
         </div>
       </section>
+      <hr />
+      <section class="second-section">
+        <span class="blue-text">Lorem, ipsum.</span>
+        <h1>Lorem</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="edu-img" src="./image.png" alt="" />
+            <div class="edu-title">School</div>
+            <div class="edu-text">Lorem, ipsum dolor.</div>
+          </div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+        </div>
+      </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed("#element", {
-        strings: ["Student", "Photographer"],
+        strings: ["Photographer", "Programmer", "Student"],
         typeSpeed: 50,
       });
     </script>
   </body>
 </html>
+<!-- <a href="https://www.flaticon.com/free-icons/school" title="school icons">School icons created by Freepik - Flaticon</a> -->
