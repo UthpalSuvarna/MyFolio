@@ -13,8 +13,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 70px;
+  height: 8vh;
   background-color: #363334;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav ul {
@@ -57,6 +60,7 @@ footer {
   align-items: center;
   justify-content: space-around;
   margin: 17vh 0;
+  height: 60vh;
   /*use pixel if needed*/
 }
 
@@ -96,6 +100,7 @@ footer {
   max-width: 80vw;
   margin: auto;
   height: 50vh;
+  padding-top: 9vh;
 }
 
 .second-section h1 {
@@ -164,4 +169,18 @@ footer {
 .second-footer a {
   text-decoration: none;
   color: white;
+}
+
+.third-section {
+  max-width: 80vw;
+  margin: auto;
+  height: 50vh;
+  padding-top: 9vh;
+}
+
+.fourth-section {
+  max-width: 80vw;
+  margin: auto;
+  height: 50vh;
+  padding-top: 9vh;
 }
