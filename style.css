@@ -46,9 +46,7 @@ main hr {
   margin: 30px 5vw;
 }
 
-footer {
-  background-color: #363334;
-}
+
 
 .logo {
   font-weight: bold;
@@ -59,12 +57,12 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 17vh 0;
+  margin: 17vh 20vh;
   height: 60vh;
   /*use pixel if needed*/
 }
 
-.first-section > div {
+.first-section>div {
   width: 40%;
 }
 
@@ -88,7 +86,7 @@ footer {
 }
 
 .right-section img {
-  width: 90%;
+  width: 120%;
 }
 
 .name {
@@ -96,55 +94,50 @@ footer {
   color: rgb(0, 255, 221);
 }
 
-.second-section {
-  max-width: 80vw;
-  margin: auto;
-  height: 30vh;
-  padding-top: 9vh;
-}
-
-.second-section h1 {
-  font-size: 2rem;
-}
-
 .blue-text {
   color: rgb(0, 255, 221);
 }
 
-.second-section .box {
-  background-color: white;
-  height: 1.5px;
-  width: 80vw;
-  margin: 50px 0;
+.aboutme-section {
+  max-width: 80vw;
+  margin: auto;
+  height: 50vh;
+  padding-top: 9vh;
+}
+
+.aboutme-section p {
+  margin: 5rem 0;
+}
+
+.aboutme-section .content {
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
 }
 
-.second-section .vertical {
-  height: 90px;
-  width: 1px;
-  background-color: white;
+
+.aboutme-section .image {
+  height: 40vh;
+  padding: 3rem 5rem;
+}
+.aboutme-section img{
+  height: 70%;
 }
 
-.edu-img {
-  width: 30px;
-  position: relative;
-  top: -28px;
-  left: -13px;
+.project-section {
+  max-width: 80vw;
+  margin: auto;
+  height: 50vh;
+  padding-top: 9vh;
+}
+.skills-section {
+  max-width: 80vw;
+  margin: auto;
+  height: 50vh;
+  padding-top: 9vh;
 }
 
-.edu-title {
-  position: relative;
-  top: 60px;
-  width: 150px;
-}
-
-.edu-text {
-  position: relative;
-  top: 60px;
-  width: 150px;
-  color: rgba(255, 255, 255, 0.664);
-  font-size: 10px;
+footer {
+  background-color: #363334;
 }
 
 .footer {
@@ -169,33 +162,4 @@ footer {
 .second-footer a {
   text-decoration: none;
   color: white;
-}
-
-.third-section {
-  max-width: 80vw;
-  margin: auto;
-  height: 50vh;
-  padding-top: 9vh;
-}
-
-.third-section p{
-  margin: 5rem 0;
-}
-
-.third-section .content{
-  display: flex;
-  align-items: center;
-}
-
-
-.third-section .image {
-  height:40vh;
-  padding: 3rem 5rem;
-}
-
-.fourth-section {
-  max-width: 80vw;
-  margin: auto;
-  height: 50vh;
-  padding-top: 9vh;
 }
